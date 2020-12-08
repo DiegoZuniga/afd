@@ -1,0 +1,107 @@
+h3.instructions {
+    border-bottom: 1px solid #333333;
+    height: 50px;
+    width: 750px;
+    margin: 30px auto 50px;
+    text-align: center;
+}
+
+#game_container {
+    float: left;
+    margin: 0 0 0 50px;
+}
+
+#board {
+    text-align: center;
+    position: relative;
+}
+
+#board tr th {
+    font-size: 16px;
+    text-align: center;
+    height: 50px;
+}
+
+#board tr td {
+    border: 1px solid #333333;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+}
+
+.stripped {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+.player1,
+.player1wins {
+    color: #0b00a7;
+}
+
+.player2,
+.player2wins {
+    color: #5dac09;
+}
+
+.piece1 {
+    background-color: #0b00a7;
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+    top: 60px;
+    opacity: .9;
+    border-radius: 50px;
+    border: 3px dotted #CCCCCC;
+}
+
+.piece2 {
+    background-color: #5dac09;
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 220px;
+    top: 60px;
+    opacity: .9;
+    border-radius: 50px;
+    border: 3px dotted #CCCCCC;
+}
+
+#plays_input {
+    float: left;
+    width: 400px;
+    font-size: 13px;
+    color: #333333;
+    margin: 15px 0 0 185px;
+}
+
+#plays_input textarea {
+    width: 375px;
+    height: 280px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.winner {
+    margin: 10px 0 0;
+    text-align: center;
+}
+
+.player1wins,
+.player2wins {
+    display: none;
+}
+
+#play {
+    float: right;
+    background-color: #080348fc;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #0b00a7;
+    margin: 10px 24px 0 0;
+}
